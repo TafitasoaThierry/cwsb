@@ -41,10 +41,10 @@ int main(int argv, char *argc[]) {
             create_repository(package, class_name, attribute);
             create_service(package, class_name,attribute);
             create_controller(package, class_name, attribute);
-            cout << "[Info] zakako!!!" << endl;
+            cout << "Code created" << endl;
         }else {
-            cout << "[Error] can't generate code with '" + entity + "'" << endl;
-            cout << " Syntax : 'Table(type name, type name, ...)'" << endl;
+            cout << "_ERR: can't generate code with '" + entity + "'" << endl;
+            cout << " Syntax : 'Table(type column1, type column2, ...)'" << endl;
         }
     }while(entity != ";");
 
