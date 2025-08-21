@@ -1,4 +1,4 @@
-for Spring boot v3.4
+Create code to write Spring boot code v3.4
 
 syntax: "Table(data_type data, ...);"
 
