@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <unistd.h>
+#include <fstream>
 #include "model.h"
 #include "repository.h"
 #include "service.h"
@@ -25,11 +26,21 @@ void clean(string *entity = nullptr) {
     *entity = temp;
 }
 
+void start() {
+    ifstream file("./cwsb.txt");
+    string line;
+
+    while(getline(file, line)) {
+        cout << line << endl;
+    }
+}
+
 int main(int argv, char *argc[]) {
     string entity = "";
     string package = argc[1];
     vector<string> attribute;
 
+    start();
     do{
         cout << "cwsb > ";
         getline(cin, entity);
