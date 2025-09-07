@@ -1,4 +1,4 @@
-cwsb for spring boot v3.4
+cwsb for spring boot v3.4 :)
 
 syntax: "Table(data_type data, ...);"
 
