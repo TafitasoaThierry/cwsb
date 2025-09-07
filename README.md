@@ -1,7 +1,7 @@
 #### C/C++ Write Spring Boot Code 😃
 #### Now available for Spring Boot v3.4
 
-👉 Syntax: "Table(data_type data, ...);"
+👉 Syntax: "Table(data_type name, ...);"
 ```
 cwsb com.test;
 ```
