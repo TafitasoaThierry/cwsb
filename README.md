@@ -7,5 +7,5 @@ cwsb com.test;
 ```
 cwsb > 
 ```
-Person(Long id, String name, String surName);
+Person(Long id, String name, String surname);
 ```
