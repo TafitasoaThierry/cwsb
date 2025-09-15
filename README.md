@@ -1,9 +1,11 @@
-Create code to write Spring boot code v3.4
+👉 Syntax: "Table(data_type name, ...);"
+```
+cwsb com.test;
+```
+cwsb > 
+```
+Person(Long id, String name, String surname);
+```
 
-syntax: "Table(data_type data, ...);"
 
-- $ cwsb com.test;
-- cwsb > Person(Long id, String name, String surName);
-
-
-@TafitasoaThierry
+in progress...
